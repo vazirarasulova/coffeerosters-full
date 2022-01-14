@@ -1,0 +1,37 @@
+.commitment{
+  margin: 160px 0;
+  
+  .commitment__box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 168px;
+  }
+  
+  .commitment__img{
+    width: 445px;
+    height: 520px;
+    border-radius: 5px;
+  }
+  
+  .commitment__info{
+    width: 540px;
+  }
+  
+  .coomitment__title{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B; 
+    margin-bottom: 32px;
+  }
+  
+  .commitment__text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    opacity: 0.8;
+    
+  }
+}

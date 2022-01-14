@@ -1,0 +1,49 @@
+.quality{
+  background-image: url("../images/quality-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 168px;
+  
+  
+  .quality__box{
+    position: relative;
+    padding: 100px 85px 200px;
+    
+    &::before{
+      content: "";
+      display: block;
+      width: 445px;
+      height: 475px;
+      background-image: url("../images/coffee.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      position: absolute;
+      top: -76px;
+      right: 85px;
+      border-radius: 12px;
+    }
+  }
+  
+  .quality__info{
+    width: 540px;
+    
+  }
+  
+  .quality__title{
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+  }
+  
+  .quality__text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+  }
+}
