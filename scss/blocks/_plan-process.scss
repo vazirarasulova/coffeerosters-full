@@ -1,0 +1,70 @@
+
+.plan-process{
+  background-image: url("../images/plan__process.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  margin-bottom: 159px;
+  padding: 104px 0 107px;
+  
+  .plan-process__content{
+    width: 1110px;
+    margin: 0 auto;
+    
+  }
+  
+  .plan-process__info{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 760px;
+    height: 1px;
+    align-items: center;
+    border: 2px solid #FDD6BA;
+    margin-bottom: 67px;
+  }
+  
+  .plan-process__circle{
+    z-index: 1;
+    width: 31px;
+    height: 31px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50px;
+  }
+}
+
+
+.plan-process-list__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-process-list__item{
+  width: 285px;
+}
+
+.plan-process-list__number{
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  margin-bottom: 38px;
+}
+
+.plan-process-list__title{
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;;
+  margin-bottom: 42px;
+}
+
+.plan-process-list__text{
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;;
+}

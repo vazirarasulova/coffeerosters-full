@@ -1,0 +1,30 @@
+.plan{
+  background-image: url("../images/plan-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 137px;
+  padding-left: 85px;
+  padding-bottom: 137px;
+  border-radius: 10px;
+  margin-bottom: 164px;
+  
+  .plan__info{
+    width: 445px;
+  }
+  
+  .plan__title{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+  }
+
+  .plan__text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin-top: 24px;
+    opacity: 0.8;
+  }
+}
