@@ -1172,7 +1172,6 @@ img {
   width: 730px;
   background: #2C343E;
   border-radius: 10px;
-  margin-left: 550px;
   margin-bottom: 40px;
   padding: 50px 64px;
 }
@@ -1207,8 +1206,12 @@ button {
   color: #FEFCF7;
   background: #E2DEDB;
   border-radius: 6px;
-  margin-left: 1000px;
+  margin-left: 530px;
   padding: 16px 35px;
+}
+
+button:hover {
+  background: #66D2CF;
 }
 
 footer {
