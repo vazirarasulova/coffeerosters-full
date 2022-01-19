@@ -33,3 +33,16 @@
   }
 
 }
+
+
+@media only screen and (max-width:689px){
+ 
+}
+
+@media only screen and (max-width:500px){
+  .header__link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

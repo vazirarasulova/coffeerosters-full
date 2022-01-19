@@ -18,6 +18,11 @@
   align-items: center;
   text-decoration: none;
   border-bottom: 1px solid #83888F;
+  
+  .type__link:hover ~ .type__number > .type__title{
+    color: #0E8784;
+    color: #333D4B;
+  }
 }
 
 
@@ -122,6 +127,7 @@
 }
 
 .summary__title{
+  font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-transform: uppercase;
@@ -140,18 +146,23 @@
 }
 
 .summary__subbox{
-  color: #1F5155;
+  color: #0E8784;
 }
 
 button{
-  color: #FEFCF7;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFC;
   background: #E2DEDB;
+  border: transparent;
   border-radius: 6px;
-  margin-left: 530px;
+  margin-left: 510px;
   padding: 16px 35px;
-
+  
   &:hover{
     background: #66D2CF;
   }
-  
 }
