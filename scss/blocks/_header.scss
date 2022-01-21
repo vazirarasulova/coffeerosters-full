@@ -1,12 +1,16 @@
-.header__box{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.header{
   margin-top: 43px;
   margin-bottom: 45px;
 }
 
+.header__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header__link{
+  width: 100%;
   width: 236px;
   height: 26px;
 }
@@ -35,14 +39,18 @@
 }
 
 
-@media only screen and (max-width:689px){
+@media only screen and (min-width:689px){
+  .header{
+    margin-top: 40px;
+    margin-bottom: 54px;
+  }
  
 }
 
-@media only screen and (max-width:500px){
-  .header__link{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+@media only screen and (min-width: 327px) and (max-width:669px){
+
+  .nav{
+    display: none;
   }
 }

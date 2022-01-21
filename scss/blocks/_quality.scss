@@ -26,7 +26,8 @@
   }
   
   .quality__info{
-    width: 540px;
+    width: 100%;
+    max-width: 540px;
     
   }
   
@@ -46,4 +47,31 @@
     color: #FEFCF7;
     opacity: 0.8;
   }
+}
+
+@media only screen and (min-width:501px) and (max-width:689px){
+
+  .quality__box{
+    padding: 200px 48px 20px;
+    
+    &::before{
+      content: "";
+      display: block;
+      width: 573px;
+      height: 320px;
+      background-image: url("../images/coffee.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      position: absolute;
+      top: -200px;
+      right: 50px;
+      border-radius: 12px;
+
+  }
+
+  .quality__info{
+    margin-top: 200px;
+  }
+ 
 }

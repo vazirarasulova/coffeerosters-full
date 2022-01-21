@@ -1,14 +1,21 @@
-.about__box{
-  background-image: url("../images/hero-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 137px;
-  padding-left: 85px;
-  padding-bottom: 137px;
-  border-radius: 10px;
+  .about{
+    margin-bottom: 168px;
+  }
+
+
+  .about__box{
+    background-image: url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 137px;
+    padding-left: 85px;
+    padding-bottom: 137px;
+    border-radius: 10px;
+  }
   
   .about__info{
-    width: 540px;
+    width: 100%;
+    max-width: 540px;
   }
   
   .about__title{
@@ -25,17 +32,21 @@
     color: #FEFCF7;
     margin-top: 24px;
   }
-}
+
+
 
 @media only screen and (max-width:689px){
+.about{
+  margin-bottom: 144px;
+}
+
   .about__box{
-    background-image: url("../images/about-tablet.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 118px 58px 189px;
+    padding: 118px 58px;
   }
+  
 
   .about__info{
+    width: 100%;
     width: 398px;
 
   }
@@ -43,6 +54,7 @@
   .about__title{
     font-size: 32px;
     line-height: 40px;
+    margin: 0;
   }
 
   .about__text{
@@ -53,22 +65,18 @@
 }
 
 
-@media only screen and (max-width:500px){
+
+@media only screen and (min-width:327px) and (max-width:500px){
+
   .about__box{
-    padding: 115px 34px 140px;
-  }
-}
-
-
-
-
-@media only screen and (max-width:327px){
-  .about__box{
+    width: 100%;
+    min-width: 327px;
     padding: 111px 24px 87px;
   }
 
   .about__info{
-    width: 279px;
+    width: 100%;
+    min-width: 279px;
   }
 
   .about__title{
@@ -81,3 +89,4 @@
     text-align: center;
   }
 }
+
